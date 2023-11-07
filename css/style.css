@@ -82,7 +82,6 @@ h2.skin-color
 .logo{
     width: 120px;
     margin-top:7px;
-    height: 40px;
 }
 nav ul {
    
@@ -472,14 +471,11 @@ p.about-text
 {
     line-height: 25px;
     font-size: 16px;
-    text-align: justify;
-    
+  
 }
 
 
-.cert-text{
-    color:ghostwhite;
-}
+
 
 
 
@@ -724,9 +720,11 @@ nav .fa-solid{
 }
 /*-------css----------for ---small screen----*/
 
-@media only screen and (max-width:676px)
+@media only screen and (max-width:600px)
 {
-    
+    #header{
+        background-image: url(images/phone-background.png)
+    }
     .header-text{
         margin-top: 100%;
         font: 16px;
@@ -811,108 +809,7 @@ nav .fa-solid{
         transition: background 0.5s;
     }
     
-    
 }
-
-@media only screen and (min-width:677px) and (max-width:975px)
-{
-   #header
-   {
-    margin-top: 35px;
-   }
-   .logo{
-    width: 90px;
-    
-}
-
-nav ul {
-   
-    margin-left: 100px;
-    margin-bottom: 3px;
-    margin-top:6px;
-}
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 2px solid red;
-}
-.home-col-2 img{
-        
-    border-radius: 10px;
-    
-    
-}
-.home-col-1{
-    flex-basis: 53%;
-    margin-bottom: 1px;
-    margin-top: 1px;
-}
-.home-col-2{
-    flex-basis: 45%;
-    margin-bottom: 1px;
-}
-
-h3.hello
-{
-    font-size: 25px;
-    margin:15px 0;
-    margin-top: 17%;
-}
-h3.hello span
-{
-    font-family: 'Clicker Script', cursive;
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--skin-color);
-}
-h4.my-profession
-{
-    font-size: 15px;
-    
-}
-h3.hello
-{
-    font-size: 20px;
-   
-}
-h4.hello span
-{
-    font-family: 'Clicker Script', cursive;
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--skin-color);
-}
-h3.my-profession
-{
-    font-size: 20px;
-    margin: 15px 0;
-}
-.typing
-{
-    color: var(--skin-color);
-}
-.home-info p
-{
-    font-size: 20px;
-    
-}
-.btn-group
-{
-    display: flex;
-    padding: 10px;
-    
-}
-.work-list{
-    display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-    
-}
-}
-
-
-
 #msg{
     color:#61b752;
     margin-top: -40px;
