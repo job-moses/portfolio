@@ -43,7 +43,7 @@ body{
     color: var(--color-text);
     font-family: 'Poppins' sans-serif;
 }
-#header{
+#heder{
     width: 100%;
     
     background-image: url(images/background.png);
@@ -54,7 +54,7 @@ body{
 .container{
     padding: 9px 9%;
 }
-nav{
+nv{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,7 +66,7 @@ nav{
     position: fixed;
     z-index: 20;
     background: #080808;
-    width: 85%;
+    width: 89%;
     top:0;
 }
 .padd-15
@@ -80,8 +80,9 @@ h2.skin-color
     color:#ff004f;
 }
 .logo{
-    width: 140px;
-    margin-top:7px;
+    width: 120px;
+    height: 40px;
+    
 }
 nav ul {
    
@@ -125,7 +126,7 @@ nav ul li a:hover::after{
 .home-col-2 img{
     width: 100%;
      background: #121212;
-    border-radius: 40px;
+    border-radius: 30px;
     border: 1px solid  #121212;;
     
 }
@@ -211,7 +212,12 @@ h3.my-profession
 }
 
 .about-col-1{
-    flex-basis: 35%;
+    flex-basis: 0%;
+}
+
+
+.about-col-2{
+    flex-basis: 98%;
 }
 .about-col-1 img{
     width: 100%;
@@ -224,7 +230,7 @@ h3.my-profession
 .about-hello 
 {
 
-   font-size: 25px;
+   font-size: 20px;
 }
 .about-hello span
 {
@@ -237,7 +243,7 @@ h3.my-profession
 .about-me-text
 {
     font-size: 18px;
-   
+  
 }
 .timeline-title span
 {
@@ -251,10 +257,11 @@ h3.my-profession
 .tab-titles{
     display: flex;
     margin:20px 0 40px;
+    
 }
 p.about-text
 {
-    font-size: 20px;
+    font-size: 16px;
 }
 .tab-links{
     margin-right: 50px;
@@ -262,6 +269,7 @@ p.about-text
     font-weight: 500;
     cursor: pointer;
     position: relative;
+    border: 3px solid black;
 }
 .tab-links::after{
     content: '';
@@ -328,7 +336,7 @@ p.about-text
 }
  .personal-info .info-item
 {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
     max-width: 50%;
 }
  .personal-info .info-item p
@@ -415,15 +423,15 @@ p.about-text
 }
 .timeline-box
 {
-    flex: 0 0 90%;
-    max-width: 90%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .timeline .timeline-item
 {
     position: relative;
-    padding-left: 37px;
-    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-bottom: 15px;
 }
 .timeline .timeline-item:last-child
 {
@@ -470,8 +478,9 @@ p.about-text
 .timeline .timeline-text
 {
     line-height: 25px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify;
+   
     
 }
 
@@ -490,6 +499,13 @@ p.about-text
 .tab-contents.active-tab{
     display: block;
 }
+.cert-text
+{
+ color: rgb(196, 187, 187); 
+ text-decoration: none;
+
+}
+
 /*--------- services-----*/
 
 #services{
@@ -538,6 +554,7 @@ margin-top:50px;
     transform: translateY(-10px);
     
 }
+
 
 /*------portfolio-----*/
 #portfolio{
@@ -721,10 +738,13 @@ nav .fa-solid{
 }
 /*-------css----------for ---small screen----*/
 
-@media only screen and (max-width:600px)
+@media only screen and (max-width:643px)
 {
     #header{
-        background-image: url(images/phone-background.png)
+     
+    }
+    .container{
+        padding: 7px 6%;
     }
     .header-text{
         margin-top: 100%;
@@ -733,13 +753,16 @@ nav .fa-solid{
     .header-text h1{
         font-size: 30px;
     }
+
     nav .fas{
         display: block;
+        margin-top: 8px;
+        margin-right: 12px;
         font-size: 25px;
     }
     .logo{
         width: 100px;
-        margin-top:7px;
+        margin-top:8px;
     }
     nav ul {
         background: #ff004f;
@@ -759,7 +782,7 @@ nav .fa-solid{
     nav ul .fa-solid{
         position: absolute;
         top: 25px;
-        left: 25px;
+        left: 30px;
         cursor: pointer;
     }
 
@@ -769,14 +792,20 @@ nav .fa-solid{
     
     .home-col-1,.home-col-2{
         flex-basis: 100%;
+        margin-bottom: 5px;
     }
-    .home-col-2{
-        margin-bottom: 50px;
+    .hme-col-2{
+        margin-bottom: 20px;
     }
     .home-col-1{
         margin-bottom: 30px;
     }
-    
+    .home-col-2 img{
+        
+        border-radius: 20px;
+        
+        
+    }
    
    
     .about-col-1,.about-col-2{
@@ -788,9 +817,28 @@ nav .fa-solid{
     .about-col-2{
         font-size: 14px;
     }
+    .about-me-text
+{
+    font-size: 16px;
+     
+   
+}
     .tab-links{
         font-size: 16px;
         margin-right: 20px;
+    }
+    .skills
+    {
+        flex: 0 0 90%;
+        max-width: 90%;
+        margin-top: 10px;
+    }
+
+    .experience
+    {
+        flex: 0 0 90%;
+        max-width: 90%;
+        margin-top: 10px;
     }
     .contact-left,.contact-right{
         flex-basis: 100%;
@@ -802,14 +850,114 @@ nav .fa-solid{
         display: block;
         margin: 12px auto;
         width: fit-content;
-        border: 1px solid #ff004f;
-        padding: 10px 25px;
+        border: .5 px solid #ff004f;
+        padding: 10px 28px;
         border-radius: 6px;
         text-decoration: none;
         color:#fff;
-        transition: background 0.5s;
+        transition: background 0.2s;
     }
+    .btn:hover{
+       background-color: var(--skin-color);
+    }
+
+}
+
+@media only screen and (min-width:644px) and (max-width:975px)
+{
+   #header
+   {
+    margin-top: 35px;
+   }
+   .logo{
+    width: 90px;
     
+}
+
+nav ul {
+   
+    margin-left: 100px;
+    margin-bottom: 3px;
+    margin-top:6px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 2px 8px;
+}
+.home-col-2 img{
+        
+    border-radius: 10px;
+    
+    
+}
+.home-col-1{
+    flex-basis: 53%;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+.home-col-2{
+    flex-basis: 45%;
+    margin-bottom: 1px;
+}
+
+h3.hello
+{
+    font-size: 25px;
+    margin:15px 0;
+    margin-top: 17%;
+}
+h3.hello span
+{
+    font-family: 'Clicker Script', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--skin-color);
+}
+h4.my-profession
+{
+    font-size: 15px;
+    
+}
+h3.hello
+{
+    font-size: 20px;
+   
+}
+h4.hello span
+{
+    font-family: 'Clicker Script', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--skin-color);
+}
+h3.my-profession
+{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.typing
+{
+    color: var(--skin-color);
+}
+.home-info p
+{
+    font-size: 20px;
+    
+}
+.btn-group
+{
+    display: flex;
+    padding: 10px;
+    
+}
+.work-list{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    
+}
 }
 #msg{
     color:#61b752;
