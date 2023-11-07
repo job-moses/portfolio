@@ -52,9 +52,10 @@ body{
     margin-bottom: 20px;
 }
 .container{
-    padding: 9px 9%;
+    padding: 9px 8%;
+    
 }
-nv{
+nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,13 +67,9 @@ nv{
     position: fixed;
     z-index: 20;
     background: #080808;
-    width: 89%;
+    width: 85%;
     top:0;
-}
-.padd-15
-{
-    padding-left: 15px;
-    padding-right: 15px;
+   
 }
 
 h2.skin-color
@@ -80,9 +77,8 @@ h2.skin-color
     color:#ff004f;
 }
 .logo{
-    width: 120px;
+    width: 100px;
     height: 40px;
-    
 }
 nav ul {
    
@@ -217,7 +213,7 @@ h3.my-profession
 
 
 .about-col-2{
-    flex-basis: 98%;
+    flex-basis: 95%;
 }
 .about-col-1 img{
     width: 100%;
@@ -580,7 +576,7 @@ margin-top:50px;
     border-radius: 12px;
     position: relative;
     overflow: hidden;
-   border: 2px solid #262626;
+   border: 2px solid red;
    background: #262626;
 }
 .work img{
@@ -738,32 +734,26 @@ nav .fa-solid{
 }
 /*-------css----------for ---small screen----*/
 
-@media only screen and (max-width:643px)
+@media only screen and (max-width:600px)
 {
-    #header{
-     
-    }
-    .container{
-        padding: 7px 6%;
-    }
-    .header-text{
-        margin-top: 100%;
-        font: 16px;
-    }
+
     .header-text h1{
         font-size: 30px;
+    }
+    nav
+
+    {
+        margin-left: 50px ;
+       
     }
 
     nav .fas{
         display: block;
         margin-top: 8px;
-        margin-right: 12px;
-        font-size: 25px;
+        margin-right: 15px;
+        font-size: 30px;
     }
-    .logo{
-        width: 100px;
-        margin-top:8px;
-    }
+   
     nav ul {
         background: #ff004f;
         position: fixed;
@@ -782,7 +772,7 @@ nav .fa-solid{
     nav ul .fa-solid{
         position: absolute;
         top: 25px;
-        left: 30px;
+        left: px;
         cursor: pointer;
     }
 
@@ -829,15 +819,15 @@ nav .fa-solid{
     }
     .skills
     {
-        flex: 0 0 90%;
-        max-width: 90%;
+        flex: 0 0 80%;
+        max-width: 80%;
         margin-top: 10px;
     }
 
     .experience
     {
-        flex: 0 0 90%;
-        max-width: 90%;
+        flex: 0 0 80%;
+        max-width: 80%;
         margin-top: 10px;
     }
     .contact-left,.contact-right{
@@ -883,7 +873,7 @@ nav ul {
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 2px 8px;
+    margin: 2px solid red;
 }
 .home-col-2 img{
         
