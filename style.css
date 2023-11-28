@@ -38,7 +38,7 @@ body{
     display: none;
 }
 .container{
-    padding: 10px 10%;
+    padding: 9px 9%;
 }
 .top{
     margin-top: 60px;
@@ -49,10 +49,14 @@ body{
 .skin-color{
     color: var(--skin-color);
 }
+svg{
+    background:#111111;
+    borer: 2px solid blue;
+}
 /*   Header*/
 #home{
     padding-top: 80px;
-    backgrund:rgba(23, 19, 33, .6)
+    background:#111111;
 
 }
 #header{
@@ -164,7 +168,7 @@ h4.my-profession
 
 #about{
     padding: 30px 0;
-    backgound:rgba(23, 19, 33, .6)
+    background:#111111;
  
 }
 .row{
@@ -174,12 +178,12 @@ h4.my-profession
 }
 
 .about-col-1{
-    flex-basis: 40%;
+    flex-basis: 38%;
 }
 .about-col-1 img{
     width: 100%;
     border-radius:25px;
-    border: 2px solid rgba(23, 19, 33, .6);
+    boder: 2px solid rgba(23, 19, 33, .6);
 }
 .about-col-2{
     flex-basis: 55%;
@@ -400,7 +404,7 @@ margin-top:50px;
 /*------portfolio-----*/
 #portfolio{
     padding: 30px 0;
-    backgroud:rgba(23, 19, 33, .6)
+    background:#111111;
     
 }
 .work-list{
