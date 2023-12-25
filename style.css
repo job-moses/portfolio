@@ -26,7 +26,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #111111;
+    background: #080808;
     color: #fff;
 }
 .hidden1
@@ -56,7 +56,7 @@ svg{
 /*   Header*/
 #home{
     padding-top: 80px;
-    background:#111111;
+    background:#080808;
 
 }
 #header{
@@ -76,7 +76,7 @@ nav{
     
 }
 .logo{
-    width: 115px;
+    width: 110px;
 }
 nav ul {
     display: flex;
@@ -504,13 +504,18 @@ margin-top:50px;
 }
 
 .contact-left p{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .contact-left p i{
     color: #ff004f;
     margin-right: 15px;
     font-size: 25px;
+}
+.contact-left p img{
+height: 60px;
+width: 70px;
+border-radius: 10px;
 }
 .social-icons{
     margin-top: 30px;
@@ -555,7 +560,7 @@ form.btn2{
     width: 100%;
     text-align: center;
     padding: 25px;
-    background: #262626;
+    background: #111111;
     font-weight: 300;
     margin-top: 20px;
 }
