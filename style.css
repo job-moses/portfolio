@@ -20,13 +20,13 @@
 }
 a{
     text-decoration: none;
-    color: #fff;
+    color: #d3caca;
 }
 html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808;
+    background:#080808;
     color: #fff;
 }
 .hidden1
@@ -56,7 +56,7 @@ svg{
 /*   Header*/
 #home{
     padding-top: 80px;
-    background:#080808;
+    backgrond:b;
 
 }
 #header{
@@ -115,28 +115,25 @@ nav ul li a:hover::after{
     font-size: 30px;
 }
 .header-text h1{
-    font-size: 60px;
-    margn-top: 20px;
+    font-sze: 60px;
 }
 
 
 h3.hello
 {
     font-size: 28px;
-    margn:15px 0;
-    margin-tp: 15%;
 }
 h3.hello span
 {
     font-family: 'Clicker Script', cursive;
     font-size: 30px;
-    font-weight: 700;
+    fot-weight: 700;
     color: var(--skin-color);
 }
 h4.my-profession
 {
     font-size: 30px;
-    margin: 20px 0;
+    margin: 15px 0;
     
 }
 .typing
@@ -153,7 +150,7 @@ h4.my-profession
 .home-info p
 {
     font-size: 10px;
-    color: var(--text-black-700);
+    coor: var(--text-black-700);
 }
 .expert
 {
@@ -168,8 +165,7 @@ h4.my-profession
 
 #about{
     padding: 30px 0;
-    backgroud:#122122;
- 
+
 }
 .row{
     display: flex;
@@ -178,19 +174,22 @@ h4.my-profession
 }
 
 .about-col-1{
-    flex-basis: 38%;
+    flex-basis: 39%;
+    backgroud-color: #b54769;
 }
 .about-col-1 img{
     width: 100%;
-    border-radius:25px;
-    boder: 2px solid rgba(23, 19, 33, .6);
+  
+    backgrund-color: black;
+    border: 2px soid green;
 }
 .about-col-2{
-    flex-basis: 55%;
+    flex-basis: 57%;
+    bacground-color: red;
 }
   .about-info-text{
  margin-bottom: 5px;
- font-size: larger;
+ 
  overflow-wrap: break-word;
 }
 .sub-title{
@@ -351,7 +350,6 @@ h4.my-profession
 {
     line-height: 25px;
     font-size: 16px;
-    text-algn: justify;
    color: #fdf9ff;
     
 }
@@ -404,7 +402,7 @@ margin-top:50px;
 /*------portfolio-----*/
 #portfolio{
     padding: 30px 0;
-    background:#111111;
+    backgrond:#111111;
     
 }
 .work-list{
@@ -434,9 +432,7 @@ margin-top:50px;
 }
 .work .title{
     height: 11%;
-    
     background:  linear-gradient(rgb(0,0,0,0.8), #3f3d3d);
-    brder-radius: 10px 10px 0px 0px;
     color:#d0d0d0;
 }
 
@@ -494,6 +490,8 @@ margin-top:50px;
 .btn:hover{
     background: #ff004f;
 }
+
+
 /* ---------------contact_____*/
 
 .contact-left{
@@ -568,13 +566,15 @@ form.btn2{
 nav .fa-solid{
     display: none;
 }
+
+
+
 /*-------css----------for ---small screen----*/
 
 @media only screen and (max-width:600px){
 
 
     .header-text{
-        margin-tp: 100%;
         font: 16px;
     }
     .header-text h1{
