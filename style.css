@@ -110,7 +110,6 @@ nav ul li a:hover::after{
 
 #home{
     padding-top: 80px;
-
 }
 
 .home-col-1
@@ -121,12 +120,10 @@ nav ul li a:hover::after{
 .home-col-2
 {
 
-    flex: 45%;
-    background-image: url(/images/myportdp.png);
- 
-    height: 480px; 
-    width: 90px;
-    
+    flex: 48%;
+    background-image: url(../images/myportdp.png);
+    height: 489px; 
+    width: 80px;
     background-size: cover;
 }
 
@@ -157,7 +154,7 @@ nav ul li a:hover::after{
 .profession
 {
     margin: 10px 0px;
-    font-size: 35px;
+    font-size: 30px;
 }
 .typing
 {
