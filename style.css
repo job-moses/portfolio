@@ -18,7 +18,7 @@
     font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
 }
-a{
+a {
     text-decoration: none;
     color: #d3caca;
 }
@@ -29,14 +29,13 @@ body{
     background:#080808;
     color: #fff;
 }
-.hidden1
-{
-    display: block;
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.hidden2
-{
-    display: none;
-}
+
 .container{
     padding: 9px 9%;
 }
@@ -49,16 +48,9 @@ body{
 .skin-color{
     color: var(--skin-color);
 }
-svg{
-    background:#111111;
-    borer: 2px solid blue;
-}
-/*   Header*/
-#home{
-    padding-top: 80px;
-    backgrond:b;
 
-}
+/*   Header sater */
+
 #header{
   
     position: fixed;
@@ -76,7 +68,7 @@ nav{
     
 }
 .logo{
-    width: 110px;
+    width: 100px;
 }
 nav ul {
     display: flex;
@@ -110,55 +102,70 @@ nav ul li a:hover::after{
     width: 100%;
 
 }
-.heder-text{
-    margin-top: 20%;
-    font-size: 30px;
-}
-.header-text h1{
-    font-sze: 60px;
-}
+
+/*--------------------Header ends--------------*/
 
 
-h3.hello
+/*--------------------Home CSS Start--------------*/
+
+#home{
+    padding-top: 80px;
+
+}
+
+.home-col-1
 {
-    font-size: 28px;
+    flex: 45%;
+    
 }
-h3.hello span
+.home-col-2
+{
+
+    flex: 45%;
+    background-image: url(/images/myportdp.png);
+ 
+    height: 480px; 
+    width: 90px;
+    
+    background-size: cover;
+}
+
+.row-home{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.home-info-1
+{
+  text-align: center;
+}
+
+.welcome
+{
+    font-weight: 500;
+    font-size: 29px;
+}
+.welcome span
 {
     font-family: 'Clicker Script', cursive;
-    font-size: 30px;
-    fot-weight: 700;
+    font-size: 35px;
     color: var(--skin-color);
 }
-h4.my-profession
+
+.profession
 {
-    font-size: 30px;
-    margin: 15px 0;
-    
+    margin: 10px 0px;
+    font-size: 35px;
 }
 .typing
 {
     color: var(--skin-color);
 }
 
-.home-info 
-{
 
- margin-top: 90px;
-}
-
-.home-info p
-{
-    font-size: 10px;
-    coor: var(--text-black-700);
-}
-.expert
-{
-    max-width: 60%;
-}
-.header-text h1 span{
-    color: #ff004f;
-}
+/*--------------------Home CSS End--------------*/
 
 
 /*--------------------About--------------*/
@@ -167,15 +174,10 @@ h4.my-profession
     padding: 30px 0;
 
 }
-.row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
 .about-col-1{
-    flex-basis: 39%;
-    backgroud-color: #b54769;
+    flex-basis: 50%;
+    background-color: #b54769;
 }
 .about-col-1 img{
     width: 100%;
@@ -184,8 +186,8 @@ h4.my-profession
     border: 2px soid green;
 }
 .about-col-2{
-    flex-basis: 57%;
-    bacground-color: red;
+    flex-basis: 45%;
+    background-color: red;
 }
   .about-info-text{
  margin-bottom: 5px;
@@ -611,6 +613,21 @@ nav .fa-solid{
     
      margin-top: 1px;
     }
+    .home-col-1
+{
+  
+    flex: 100%;
+    
+}
+.home-col-2
+{
+
+    flex: 100%;
+    align-items: center; 
+    height: 350x; 
+    width: 100px;   
+    background-size: cover;
+}
     
     .sub-title{
         font-size: 40px;
