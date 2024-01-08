@@ -37,16 +37,33 @@
             <div class="home-col-1">
                 <div class="home-info-1">
                     <p class="welcome">Hello my name is <span class="cursive skin-color">Moses </span></p>
-                    <p class="profession">I'm a <span class="typing">Data Analyst</span></p>
+                    <p class="profession">I'm a <span class="typing cursive">Data Analyst</span></p>
                     <p class="brandline"> I specialize in driving business growth through data-driven decision-making.</p>
-                    <a href="#contact", class = 'btn hire-me'>Hire Me</a>
+                    <a href="#contact", class = 'btn hire-me center-bg'>Hire Me</a>
                   
+                </div>
+                <div class="social-icons center-bg">
+                        
+                    <a href="https://x.com/jobmosesubeh?t=rCJmQ-VSR7tleozAN5b1NA&s=09" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/in/moses-job?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/job-moses" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
                                                     
             </div>
             <div class="home-col-2">
         
-
+                    
+                        <img src="images/pixelcut.png" alt="">
+                        <div class="social-icons center-small">
+                        
+                            <a href="https://x.com/jobmosesubeh?t=rCJmQ-VSR7tleozAN5b1NA&s=09" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.linkedin.com/in/moses-job?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/job-moses" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                        
+                    </div>
+                
+                    
             </div>
          
         </div>
@@ -113,7 +130,9 @@
                                         <div class="progress-in" style = "width: 85%;"> </div>
                                         <div class="skill-percent">85%</div>
                                     </div>
-                                    <a href="images/Moses-cv.pdf"  download class="btn">Download CV</a>
+                                    <button class="hire-me"><a href="images/Moses-cv.pdf"  download class="">Download CV</a></button>
+                                    <button class="hire-me center-small"> <a href="#contact" class = ''>Hire Me</a></button>
+                            
                                 </div>
                             </div>
                         </div>
@@ -200,6 +219,7 @@
     <div id="services">
         <div class="container">
             <h1 class="sub-title"> My Services</h1>
+         <div class="row">
             <div class="services-list">
                 <div>
                     <i class="fa-brands fa-app-store"></i>
@@ -228,15 +248,46 @@
                     <a href="http://job-moses.github.io/portfolio"  target="_blank"> Learn More</a>
                 </div>
             </div>
+           </div>
+          <!---  <button  class="btn"    onclick="showHide()">Get a copy of my Book on Amazon</button>
+          <div id = "books" class="row">
+            <div class="book-list">
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Data Analysis</h2>
+                    <p>
+                        As a Data Analyst, I bring the power of data to your fingertips.Creating clear and concise reports to communicate findings effectively.
+
+                        With a keen eye for detail and a passion for uncovering hidden insights, I help businesses make data-driven decisions that drive success.
+                    </p>
+                    <a href="https://github.com/job-moses" target="_blank" > Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <img src="https://m.media-amazon.com/images/I/514p+ALKEtL._SY466_.jpg" alt="">
+                     <a href="https://github.com/job-moses" target="_blank" > Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <img src="https://m.media-amazon.com/images/I/514p+ALKEtL._SY466_.jpg" alt="">
+                     <a href="https://github.com/job-moses" target="_blank" > Learn More</a>
+                </div>
+            </div>
+
+           </div> -->
         </div>
     </div>
+    <!--------------------------Services End------------->
+
+    
     <!--------------------------portforlio------------->
     <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
-            <h4 class="center skin-color ">My recent projects</h4>
+            <h4 class="center skin-color work-subtitle ">My recent projects</h4>
 
-            <div class="work-list ">
+            <div class="row">
+                <div class="work-list ">
                 <div class="work">
                     <div class="title">
                         <h4 class="center">Revitalizing FIFA 21 Dataset</h4>
@@ -378,6 +429,7 @@
 
                 
             </div>
+            </div>
             <a href="https://github.com/job-moses" target="_blank"  class="btn"> See More</a>
         </div>
     </div>
@@ -412,9 +464,19 @@
             </div>
         </div>
         <div class="copyright">
-            <p><i class="fa-regular fa-copyright"></i> MetaOps-6</p>
+            <p><i class="fa-regular fa-copyright"></i> MO-6</p>
         </div>
     </div>
+    <script>
+        function showHide() {
+        var x = document.getElementById("books");
+        if (x.style.display === "none") {
+        x.style.display = "block";
+        } else {
+           x.style.display = "none";
+        }       
+      } 
+    </script>
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
