@@ -638,7 +638,14 @@ nav .fa-solid{
 /*-------css----------for ---small screen----*/
 
 @media only screen and (max-width:600px){
-
+    nav ul li a::after{
+      display: none;
+    
+    }
+    nav ul li a:hover::after{
+        display: none;
+    
+    }
 
     .header-text{
         font: 16px;
