@@ -192,7 +192,7 @@ nav ul li a:hover::after{
 /*--------------------About--------------*/
 
 #about{
-    padding: 0 8%;
+    padding: 2% 8%;
     position: relative;
 }
 
@@ -421,7 +421,7 @@ nav ul li a:hover::after{
 /*--------- services-----*/
 
 #services{
-    padding: 0px 8%;
+    padding: 2% 8%;
     position: relative;
 }
 
@@ -584,7 +584,7 @@ margin-top:50px;
 
 /* ---------------contact_____*/
 #contact{
-    padding: 0 8%;
+    padding: 2% 8%;
 }
 .contact-content{
     display: flex;
