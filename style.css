@@ -153,10 +153,19 @@ nav ul li a:hover::after{
 .welcome span
 {
     font-family: 'Clicker Script', cursive;
-    font-size: 35px;
+    font-size: 30px;
     color: var(--skin-color);
 }
-
+.brandline span
+{
+    font-family: 'Clicker Script', cursive;
+    font-size: 30px;
+    color: var(--skin-color);
+}
+.resume-div{
+    padding: 5px 0px;
+   
+}
 .profession
 {
     margin: 10px 0px;
