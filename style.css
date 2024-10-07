@@ -153,7 +153,7 @@ nav ul li a:hover::after{
 .welcome span
 {
     font-family: 'Clicker Script', cursive;
-    font-size: 30px;
+    font-size: 40px;
     color: var(--skin-color);
 }
 .brandline span
@@ -177,6 +177,11 @@ nav ul li a:hover::after{
     color: var(--skin-color);
     font-family: 'Clicker Script', cursive;
 }
+.newtyping
+{
+    color: var(--skin-color);
+    font-family: 'Clicker Script', cursive;
+}
 .center-bg{
     display: block;
     text-align: center;
@@ -185,7 +190,11 @@ nav ul li a:hover::after{
 .center-small
 {
     display: none;
+    
    
+}
+.center{
+    text-align: center;
 }
 
 .home-social {
